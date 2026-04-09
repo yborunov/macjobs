@@ -11,17 +11,11 @@ Tiny native SwiftUI macOS dashboard for inspecting and controlling recurring `la
 
 ### Overview
 
-![MacJobs Overview](docs/screenshots/overview.svg)
+![MacJobs Overview](docs/screenshots/overview.png)
 
 ### Job details
 
-![MacJobs Job Details](docs/screenshots/job-details.svg)
-
-To replace placeholders with real screenshots:
-
-1. Build and open the app.
-2. Capture screenshots to `docs/screenshots/overview.png` and `docs/screenshots/job-details.png`.
-3. Update image links in this README from `.svg` to `.png`.
+![MacJobs Job Details](docs/screenshots/job-details.png)
 
 ## Features
 
