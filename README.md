@@ -7,6 +7,22 @@ Tiny native SwiftUI macOS dashboard for inspecting and controlling recurring `la
 - `/Library/LaunchDaemons`
 - Optional: `/System/Library/LaunchAgents` and `/System/Library/LaunchDaemons`
 
+## Screenshots
+
+### Overview
+
+![MacJobs Overview](docs/screenshots/overview.svg)
+
+### Job details
+
+![MacJobs Job Details](docs/screenshots/job-details.svg)
+
+To replace placeholders with real screenshots:
+
+1. Build and open the app.
+2. Capture screenshots to `docs/screenshots/overview.png` and `docs/screenshots/job-details.png`.
+3. Update image links in this README from `.svg` to `.png`.
+
 ## Features
 
 - Overview screen with:
@@ -37,6 +53,16 @@ Output app bundle:
 
 ```text
 dist/MacJobs.app
+```
+
+## Quick start
+
+```bash
+git clone https://github.com/yborunov/macjobs.git
+cd macjobs
+chmod +x ./build.sh
+./build.sh
+open ./dist/MacJobs.app
 ```
 
 ## Run
