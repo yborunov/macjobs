@@ -59,6 +59,19 @@ chmod +x ./build.sh
 open ./dist/MacJobs.app
 ```
 
+## Install with Homebrew
+
+```bash
+brew tap yborunov/tap
+brew install --cask macjobs
+```
+
+Then launch from Applications or run:
+
+```bash
+open /Applications/MacJobs.app
+```
+
 ## Run
 
 ```bash
